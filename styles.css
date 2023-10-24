@@ -1,0 +1,257 @@
+/* styles.css */
+
+/* Common Styles */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0 1em;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.main-content {
+    text-align: center;
+    padding: 4em;
+    background-color: #fff;
+    border-radius: 10px;
+    
+    max-width: 600px;
+    margin: auto;
+}
+
+.main-content h2 {
+    font-size: 36px;
+    margin-bottom: 1em;
+}
+
+.main-content p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 2em;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 18px;
+    text-align: center;
+    text-decoration: none;
+    background-color: #333;
+    color: #fff;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+    border: none;
+}
+
+.btn:hover {
+    background-color: #555;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+}
+
+/* Additional Styles for Seat Selection */
+
+.seat-container {
+    text-align: center;
+    margin-top: 2em;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1em;
+}
+
+.seat {
+    width: 50px;
+    height: 50px;
+    background-color: #ccc;
+    margin: 5px;
+    display: inline-block;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.seat.selected {
+    background-color: green;
+    color: white;
+}
+
+
+.seat:hover {
+    background-color: #ffbd69;
+}
+
+/* Additional Styles for Calculator */
+
+.form-group {
+    margin-bottom: 1.5em;
+}
+
+label {
+    font-size: 18px;
+}
+
+input {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+}
+
+#result {
+    margin-top: 2em;
+}
+
+#fare {
+    font-size: 24px;
+    color: #333;
+}
+
+.hidden {
+    display: none;
+}
+.about {
+    background-color: #fff;
+    padding: 4em;
+    text-align: center;
+}
+
+.about h2 {
+    font-size: 36px;
+    margin-bottom: 1em;
+}
+
+.about p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 2em;
+}
+/* calculator_styles.css */
+
+/* ... (common styles) ... */
+
+.form-group {
+    margin-bottom: 1.5em;
+}
+
+label {
+    font-size: 18px;
+}
+
+input {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+}
+
+#result {
+    margin-top: 2em;
+}
+
+#fare {
+    font-size: 24px;
+    color: #333;
+}
+
+.hidden {
+    display: none;
+}
+/* styles.css */
+
+.log {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f9f9f9;
+}
+
+.login-container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.login-form {
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+}
+
+.login-form h2 {
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+
+
+
+.btn {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #555;
+}
